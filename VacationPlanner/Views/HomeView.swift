@@ -14,16 +14,19 @@ struct Continents: Identifiable {
     var color: Color
 }
 
+var blue_1 = Color.init(red: 138/255, green: 190/255, blue: 234/255)
+var blue_2 = Color.init(red: 111/255, green: 148/255, blue: 182/255)
+var blue_3 = Color.init(red: 96/255, green: 152/255, blue: 202/255)
 
 struct HomeView: View {
     
     @State var val:String = ""
     var listOfCountients:[Continents] = [
-        Continents.init(name: "Europe", color: Color.red),
-        Continents.init(name: "Asia", color: Color.blue),
-        Continents.init(name: "Africa", color: Color.green),
-        Continents.init(name: "South America", color: Color.yellow),
-        Continents.init(name: "North America", color: Color.orange)
+        Continents.init(name: "Europe", color: blue_1),
+        Continents.init(name: "Asia", color: blue_2),
+        Continents.init(name: "Africa", color: blue_3),
+        Continents.init(name: "South America", color: blue_1),
+        Continents.init(name: "North America", color: blue_2)
     ]
     
     var body: some View {
@@ -47,17 +50,12 @@ struct HomeView: View {
                     
                     
                 }.padding([.top,.bottom], 20)
-                    .background(Color.green)
             }
             
             VStack{
-                Text("This is the vstack")
-                Text("This is the vstack")
-                Text("This is the vstack")
-                Text("This is the vstack")
-                Text("This is the vstack")
-                Text("This is the vstack")
-                Text("This is the vstack")
+                ForEach(0..<3){ _ in
+                    LargeLocationButton()
+                }.background(Color.blue)
             }
             
             Spacer()
