@@ -15,6 +15,7 @@
 		B51D3BCD2512583F00841B1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51D3BCB2512583F00841B1A /* LaunchScreen.storyboard */; };
 		B51D3BD625125A3E00841B1A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D3BD525125A3E00841B1A /* HomeView.swift */; };
 		B51D3BD825126C4100841B1A /* LargeLocationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D3BD725126C4100841B1A /* LargeLocationButton.swift */; };
+		B51D3BDC251274F200841B1A /* Structs_Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51D3BDB251274F200841B1A /* Structs_Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B51D3BCE2512583F00841B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B51D3BD525125A3E00841B1A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B51D3BD725126C4100841B1A /* LargeLocationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeLocationButton.swift; sourceTree = "<group>"; };
+		B51D3BDB251274F200841B1A /* Structs_Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs_Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				B51D3BC42512583C00841B1A /* ContentView.swift */,
 				B51D3BD525125A3E00841B1A /* HomeView.swift */,
 				B51D3BD725126C4100841B1A /* LargeLocationButton.swift */,
+				B51D3BDB251274F200841B1A /* Structs_Enums.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51D3BC12512583C00841B1A /* AppDelegate.swift in Sources */,
+				B51D3BDC251274F200841B1A /* Structs_Enums.swift in Sources */,
 				B51D3BD625125A3E00841B1A /* HomeView.swift in Sources */,
 				B51D3BC32512583C00841B1A /* SceneDelegate.swift in Sources */,
 				B51D3BD825126C4100841B1A /* LargeLocationButton.swift in Sources */,

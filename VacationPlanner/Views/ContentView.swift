@@ -12,6 +12,9 @@ struct ContentView: View {
     
     @State private var selection = 0
     
+    
+   
+    
     var body: some View {
         TabView(selection: $selection){
             HomeView()
@@ -32,7 +35,7 @@ struct ContentView: View {
                     }
                     
             }
-            tag(1)
+            .tag(1)
             
         }
     }
